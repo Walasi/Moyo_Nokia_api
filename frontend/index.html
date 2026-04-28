@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moyo Token - Claim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Moyo Token</h1>
+    <p class="subtitle">Network-Verified UBI Claim</p>
+    
+    <div class="card">
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" placeholder="+233500000001" value="+233500000001">
+      
+      <label for="location">Registered Location</label>
+      <select id="location">
+        <option value="Accra">Accra</option>
+        <option value="Kumasi">Kumasi</option>
+        <option value="Tamale">Tamale</option>
+      </select>
+      
+      <button id="claimBtn">Claim Moyo Token</button>
+      
+      <div id="status" class="status hidden"></div>
+    </div>
+    <p class="note">🔒 Protected by Nokia Network APIs</p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

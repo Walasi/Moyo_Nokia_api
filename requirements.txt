@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+stellar-sdk
+supabase
+python-dotenv
+httpx

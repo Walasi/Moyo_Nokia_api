@@ -1,0 +1,15 @@
+moyo-token-prototype/
+├── backend/
+│   ├── main.py              # FastAPI app
+│   ├── mock_nokia.py        # Mock API responses
+│   ├── decision_engine.py   # Core logic
+│   ├── stellar_service.py   # Stellar testnet
+│   ├── database.py          # Supabase logging (optional)
+│   └── requirements.txt
+├── frontend/
+│   ├── index.html
+│   ├── app.js
+│   └── style.css
+├── .env
+├── .gitignore
+└── README.md
