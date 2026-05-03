@@ -1,3 +1,15 @@
+Problem
+**Ghost beneficiaries** in government payrolls and aid programs cost African nations billions each year. Without a verified identity anchor, the same person can be registered multiple times and collect payments under different names. In West Africa, the ECOWAS ID card provides a ready‑made biometric identity base that is underutilised in payment systems.
+
+Solution
+- **ECOWAS ID → SIM linkage:** During onboarding, the user's national ID number is bound to their phone number via Nokia’s Number Verification, creating a trusted digital identity.
+- **One ID, one claim:** Before each disbursement, the backend checks whether that ID has already received a payment in the current cycle. If yes, the transaction is blocked—making double‑dipping impossible.
+
+How it works
+1. **Onboarding:** User provides ECOWAS ID number + phone number. Nokia Number Verification confirms the SIM belongs to that device. The ID‑SIM pair is stored.
+2. **Monthly Claim:** SIM Swap check → Location Verification → Duplicate claim check → Blockchain payment.
+3. **Recovery:** If SIM is swapped legitimately, secret word verification restores access without losing the ID linkage.
+
 ## User Stories
 
 ### Abena – A Smooth Claim
