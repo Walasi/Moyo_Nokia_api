@@ -8,7 +8,7 @@ Integration code: `backend/nokia_sdk.py`
 Test script: `backend/test_sdk.py`
 
 
-Problem
+Problem.
 
 **Ghost beneficiaries** in government payrolls and aid programs cost African nations billions each year. Without a verified identity anchor, the same person can be registered multiple times and collect payments under different names. In West Africa, the ECOWAS ID card provides a ready‑made biometric identity base that is underutilised in payment systems.
 
