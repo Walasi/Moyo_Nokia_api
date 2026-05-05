@@ -4,4 +4,4 @@ stellar-sdk
 supabase
 python-dotenv
 httpx
-requests
+network_as_code
