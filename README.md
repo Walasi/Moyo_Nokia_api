@@ -8,6 +8,17 @@ Integration code: `backend/nokia_sdk.py`
 Test script: `backend/test_sdk.py`
 
 
+
+## Running the Prototype with Real Nokia APIs
+1. Copy `.env.example` to `.env`
+2. Replace the placeholder values with your real Nokia API key and Stellar testnet keys
+3. Set `USE_REAL_NOKIA_API=True`
+4. Start the backend: `uvicorn backend.main:app --reload`
+
+For judges: The actual `.env` file used for the demonstrated real API integration has been shared separately via email / HackerEarth submission portal. Please contact me if needed.
+
+
+
 Problem
 
 **Ghost beneficiaries** in government payrolls and aid programs cost African nations billions each year. Without a verified identity anchor, the same person can be registered multiple times and collect payments under different names. In West Africa, the ECOWAS ID card provides a ready‑made biometric identity base that is underutilised in payment systems.
