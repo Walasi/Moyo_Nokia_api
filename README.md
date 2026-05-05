@@ -8,6 +8,7 @@ Integration code: `backend/nokia_sdk.py`
 Test script: `backend/test_sdk.py`
 
 
+<<<<<<< HEAD
 
 ## Running the Prototype with Real Nokia APIs
 1. Copy `.env.example` to `.env`
@@ -20,6 +21,9 @@ For judges: The actual `.env` file used for the demonstrated real API integratio
 
 
 Problem
+=======
+Problem.
+>>>>>>> 9dc3e12e6d32495d22027bee3eb79b36c47d8674
 
 **Ghost beneficiaries** in government payrolls and aid programs cost African nations billions each year. Without a verified identity anchor, the same person can be registered multiple times and collect payments under different names. In West Africa, the ECOWAS ID card provides a ready‑made biometric identity base that is underutilised in payment systems.
 
